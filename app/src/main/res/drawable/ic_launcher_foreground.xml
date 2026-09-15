@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:translateX="-10.8"
+        android:translateY="-10.8">
+        <!-- Graduation cap / book emblem -->
+        <path
+            android:fillColor="#FDFBF7"
+            android:pathData="M54,32 L24,47 L54,62 L84,47 Z" />
+        <path
+            android:fillColor="#E6D7C3"
+            android:pathData="M33,52 L33,68 C33,74 42,79 54,79 C66,79 75,74 75,68 L75,52 L54,62 Z" />
+        <path
+            android:strokeColor="#FDFBF7"
+            android:strokeWidth="2"
+            android:pathData="M81,48 L81,72 L84,75" />
+    </group>
+</vector>

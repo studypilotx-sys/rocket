@@ -1,0 +1,11 @@
+<resources>
+    <!-- StudyPilot Light Warm Academic Palette -->
+    <color name="ivory_background">#FDFBF7</color>
+    <color name="warm_white">#FFFFFF</color>
+    <color name="camel_primary">#C4975A</color>
+    <color name="light_brown">#8C6239</color>
+    <color name="dark_chocolate">#2C1810</color>
+    <color name="cream_surface">#F7F3EE</color>
+    <color name="card_border">#E8DFC8</color>
+    <color name="muted_text">#7A695E</color>
+</resources>

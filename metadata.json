@@ -1,0 +1,6 @@
+{
+  "name": "StudyPilot",
+  "description": "Intelligent student study-management native Android application with curriculum tracking, focus timer, study materials, Guardian monitoring, adaptive planner, Pluto AI assistant, Email & Password authentication, App Lock, and notifications created by Mohammad Fahad.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

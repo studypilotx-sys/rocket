@@ -1,0 +1,42 @@
+[
+  {
+    "id": "student_default_1",
+    "email": "student@studypilot.edu",
+    "name": "Alex Student",
+    "passwordHash": "1121ebf5dda39c35ebef928a61d757dd29d15c0ecfe309ea6a7129c18d5e9d3c",
+    "salt": "7863f9abafa8282ce9b7c3e1841778c4",
+    "createdAt": 1789473465351
+  },
+  {
+    "id": "user_1789473469359_cwfqe",
+    "email": "alex.kumar@school.org",
+    "name": "Alex Kumar",
+    "passwordHash": "20224d244b76b16510ae511faf317e69ab738392fb0165ea336b53a36e9e8adc",
+    "salt": "c20fa7fe06bde9d8bb8872750d6b10af",
+    "createdAt": 1789473469359
+  },
+  {
+    "id": "user_1789473495197_m9he1",
+    "email": "test1789473495192@school.edu",
+    "name": "Jordan Lee",
+    "passwordHash": "64eb244639de0ba9f6156c7b48d798c4a37dd241f2a1e77415c86b7113ab206e",
+    "salt": "e74369afa95fd28fae3c5a4eb216cf0c",
+    "createdAt": 1789473495197
+  },
+  {
+    "id": "user_1789473767690_qawba",
+    "email": "studypilot.x@gmail.com",
+    "name": "StudyPilot",
+    "passwordHash": "c98d36f1fecda0462aecc3a440ae67b17411a34b6285904b1b803ff839c20b21",
+    "salt": "76ab61c9115fce080bbcd706091f6e13",
+    "createdAt": 1789473767690
+  },
+  {
+    "id": "user_1789474621342_iqd9t",
+    "email": "audit_student_1789474621338@studypilot.edu",
+    "name": "Audit Student",
+    "passwordHash": "03320ba5544f66e8684c427df4195f81f4fdf2ed2fc56f3b35d9334069712d82",
+    "salt": "b0eca26bf7f1ac41e712a6adfd6fb9c4",
+    "createdAt": 1789474621342
+  }
+]

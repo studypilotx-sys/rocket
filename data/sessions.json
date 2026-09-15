@@ -1,0 +1,18 @@
+[
+  {
+    "token": "stk_682aeb29d523e6e42324adad0d093697185e779a5215cd77b2e8c0971d9b9a78",
+    "userId": "user_1789474621342_iqd9t",
+    "email": "audit_student_1789474621338@studypilot.edu",
+    "name": "Audit Student",
+    "createdAt": 1789474621410,
+    "expiresAt": 1790079421410
+  },
+  {
+    "token": "stk_cc9f5ced28d1abea47196e218ad8e3ee1cfe2ccdd0686a36686329af94346f14",
+    "userId": "user_1789474621342_iqd9t",
+    "email": "audit_student_1789474621338@studypilot.edu",
+    "name": "Audit Student",
+    "createdAt": 1789474621425,
+    "expiresAt": 1790079421425
+  }
+]

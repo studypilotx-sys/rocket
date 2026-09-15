@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="168dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_guardian_overlay"
+    android:elevation="12dp">
+
+    <!-- Movable Header Bar -->
+    <LinearLayout
+        android:id="@+id/layout_overlay_header"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#2C211B"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="GUARDIAN ACTIVE"
+            android:textColor="#C4975A"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.05" />
+
+        <ImageView
+            android:id="@+id/btn_overlay_end"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            android:tint="#D2C2B5"
+            android:contentDescription="End Session"
+            android:padding="2dp" />
+    </LinearLayout>
+
+    <!-- Camera Preview for real-time background analysis -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#000000">
+
+        <androidx.camera.view.PreviewView
+            android:id="@+id/preview_overlay_camera"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!-- Overlay Status Pill -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:layout_margin="6dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="#B3000000"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp">
+
+            <View
+                android:id="@+id/view_overlay_status_dot"
+                android:layout_width="6dp"
+                android:layout_height="6dp"
+                android:background="#4CAF50"
+                android:layout_marginEnd="4dp" />
+
+            <TextView
+                android:id="@+id/text_overlay_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PRESENT"
+                android:textColor="#4CAF50"
+                android:textSize="9sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <!-- Timer and Info Footer -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#1C1714"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp">
+
+        <TextView
+            android:id="@+id/text_overlay_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace" />
+    </LinearLayout>
+</LinearLayout>
